@@ -1,12 +1,13 @@
-def CzyLista(obiekt):
-    typ =  isinstance(obiekt,list)
+def CzyLista(arg):
+    typ =  isinstance(arg,list)
     match typ:
         case True:
             return "lista"
         case False:
-            test = isinstance(obiekt, tuple)
-            if test == True: return "tupla"
-            elif test == False: return "dict"
+            if isinstance(arg, tuple) == True: return "tupla"
+            elif isinstance(arg, dict) == True: return "dict"
+            else: return None
+            
 
 
 
