@@ -1,6 +1,6 @@
 def safe_function(func):
     func()
-    
+
 
 
 def dzielenie(a,b):
