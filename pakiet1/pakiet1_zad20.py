@@ -8,11 +8,4 @@ def CzyLista(arg):
             elif isinstance(arg, dict) == True: return "dict"
             else: return None
             
-
-
-
-
-
-
 print(CzyLista([]))
-
